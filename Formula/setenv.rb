@@ -6,7 +6,7 @@ class Setenv < Formula
   license "Apache-2.0"
 
   def install
-    bash_completion.install "src/main/resources/setenv.bash"
+    bash_completion.install "src/main/resources/setenv.bash" => "_setenv"
   end
 
   test do
