@@ -2,7 +2,7 @@ class Pommes < Formula
   desc ""
   homepage "https://github.com/mlhartme/pommes"
   url "https://github.com/mlhartme/pommes/archive/refs/tags/pommes-3.4.0.tar.gz"
-  sha256 "5705218dbd94586f172ee77f611115943129e170e6bea57034fa63678f96408d"
+  sha256 "d7fadf5538b0ed79bec622ef98875e7637aa6a63c0cb110d84fb3b2cde13025b"
   head "https://github.com/mlhartme/pommes.git"
   license "Apache-2.0"
 
