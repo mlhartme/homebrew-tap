@@ -10,10 +10,10 @@ class Pommes < Formula
   def install
     system "mvn -U clean package"
     bin.install "target/pommes"
-    zsh_completion.install "pom.xml" => "_pommes"
+    zsh_completion.install "src/main/resources/profiles/zsh.rc" => "_pommes"
   end
 
   test do
-    assert_match "USAGE:", shell_output("#{bin}/pommes -h 2>&1")
+    assert_match "Usage:", shell_output("#{bin}/pommes -h 2>&1")
   end
 end
